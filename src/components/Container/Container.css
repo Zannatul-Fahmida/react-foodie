@@ -1,0 +1,33 @@
+.social-container{
+    height: 50%;
+    width: 15%;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+    padding: 0 50px;
+    border-radius: 5px 0 0 5px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+}
+.common-btn{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.common-btn:hover{
+    cursor: pointer;
+    color: rgb(190, 190, 190);
+}
+.signin-google-btn{
+    margin-top: 10px;
+    background-color: rgb(156, 4, 4);
+}
+.signin-fb-btn{
+    margin: 10px 0;
+    background-color: #2e4d8f;
+}
+.signin-github-btn{
+    background-color: black;
+}
